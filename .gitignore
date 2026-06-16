@@ -1,26 +1,34 @@
 # =========================
-# Frontend
+# Dependencies
 # =========================
-frontend/node_modules
-frontend/dist
-frontend/dist-ssr
+frontend/node_modules/
+backend/node_modules/
+admin/node_modules/
+
+# =========================
+# Build Files
+# =========================
+frontend/dist/
+frontend/dist-ssr/
+admin/dist/
+admin/dist-ssr/
+
+# =========================
+# Environment Files
+# =========================
 frontend/.env
 frontend/.env.local
 
-# =========================
-# Backend
-# =========================
-backend/node_modules
 backend/.env
+backend/.env.local
 
-# =========================
-# Admin
-# =========================
 admin/.env
+admin/.env.local
 
 # =========================
 # Logs
 # =========================
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -29,22 +37,22 @@ pnpm-debug.log*
 lerna-debug.log*
 
 # =========================
-# Local Environment Files
-# =========================
-*.local
-
-# =========================
-# IDE Files
+# IDE / Editor Files
 # =========================
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 
 # =========================
-# OS Files
+# Operating System Files
 # =========================
 .DS_Store
 Thumbs.db
+
+# =========================
+# Misc
+# =========================
+*.local
 *.suo
 *.ntvs*
 *.njsproj
